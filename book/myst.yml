@@ -1,0 +1,36 @@
+version: 1
+project:
+  title: >-
+    Reproducibly Analysing Wildfire, Drought, and Flood Risk with NASA Earthdata
+    Cloud
+  authors:
+    - name: 2i2c / MetaDocencia
+  github: ScienceCore/climaterisk
+  toc:
+    - file: intro.md
+    - title: Open Science
+      children:
+        - file: 01_Open_Science/Open_Science_Intro.md
+    - title: Geospatial fundamentals
+      children:
+        - file: 02_Geospatial_fundamentals/2_Selecting_an_AOI.md
+        - file: 02_Geospatial_fundamentals/remote-sensing.md
+    - title: Geospatial data files
+      children:
+        - file: 03_Geospatial_data_files/geographic_data_formats.md
+    - title: NASA EarthData
+      children:
+        - file: 04_NASA_Earthdata/0_Initial_Setup.md
+        - file: 04_NASA_Earthdata/0_Configuracion_inicial.md
+    - title: Wildfire Analysis
+      children:
+        - file: 07_Wildfire_analysis/Retrieving_Disturbance_Data.md
+        - file: 07_Wildfire_analysis/Wildfire.md
+    - title: Flood Analysis
+      children:
+        - file: 08_Flood_analysis/3_Retrieving_FloodData.md
+        - file: 08_Flood_analysis/flood.md
+site:
+  options:
+    logo: assets/TOPS.png
+  template: book-theme
